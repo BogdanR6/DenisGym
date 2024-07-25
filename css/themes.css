@@ -1,0 +1,11 @@
+* {
+  --primary-color: #161616;
+  --background-color-1: #0e0e0e; 
+  --background-color-2: #161616; 
+  --background-color-3: #f33937;
+  --primary-text-color: #e03732;
+  --secundeary-text-color: #c6c6c6;
+  --scroll-track-color: #0e0e0e;
+  --scroll-thumb-color: #c6c6c6;
+  --header-hight: 64px;
+}

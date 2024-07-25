@@ -1,0 +1,258 @@
+body {
+  background-color: var(--background-color-1);
+  width: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+
+header {
+  container-type: size;
+  container-name: hdr;
+
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+
+  height: var(--header-hight);
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: stretch;
+
+  overflow: hidden;
+}
+
+.he {
+  margin: 10cqmin;
+}
+
+header .logo {
+  padding: 5px;
+  object-fit: scale-down;
+  width: 100%;
+  grid-column-start: 1;
+  justify-self: left;
+}
+
+@media only screen and (max-width: 768px) {
+  header .logo {
+    scale: 0.9;
+  }
+}
+
+.logo-link {
+  width: 100px;
+  margin-left: 1%;
+}
+
+.options {
+  container-type: size;
+
+  height: 100%;
+  width: 100%;
+
+  margin-right: 5%;
+
+  display: flex;
+  justify-content: flex-end;
+
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.options .option {
+  grid-row: 1;
+  font-size: min(5.5cqw, 1.725rem);
+  text-decoration: none;
+  color: var(--primary-text-color);
+  justify-self: center;
+  align-self: center;
+  margin: 0 10cqb;
+}
+
+.options .option:hover {
+  text-decoration: underline;
+}
+
+.scroll-content {
+  position: absolute;
+  top: var(--header-hight); /* same height as toolbar */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  top: 100px;
+  overflow-y: auto;
+}
+
+p {
+  margin: 0 10px;
+  color: white;
+}
+
+.art {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  width: 100%;
+  min-height: 25vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hls {
+  color: var(--secundeary-text-color);
+  text-shadow: 10px;
+}
+
+.psc {
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.psc .logo {
+  width: 80%;
+  scale: 0.5;
+}
+
+.info-pack {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--secundeary-text-color);
+
+  width: 80%;
+  padding: 20px 10%;
+
+  text-align: justify;
+}
+
+.text-image-pk {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.wrap {
+  display: flex; 
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrap {
+    flex-direction: column;
+  }
+}
+
+footer {
+  background-color: var(--background-color-3);
+  display: grid;
+
+  width: 100%;
+}
+
+.fa {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+  scale: 4;
+  height: 15px;
+  width: 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  background: transparent;
+  color: var(--secundeary-text-color);
+  grid-row-start: 1;
+  grid-column-start: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.fa-instagram {
+  /*
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  */
+  background: transparent;
+  color: var(--secundeary-text-color);
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+
+.social-links {
+  display: grid;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  .fa-facebook {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+}
+
+.contact-info {
+  color: var(--secundeary-text-color);
+  grid-row-start: 1;
+  grid-column-start: 3;
+  margin: 5%;
+
+  justify-self: flex-end;
+}
+
+.phone-nr {
+  text-decoration: none;
+  color: var(--secundeary-text-color)
+}
+
+.phone-nr:hover {
+  text-decoration: underline;
+}
+
+.location-link {
+  text-decoration: none;
+  color: var(--secundeary-text-color)
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
