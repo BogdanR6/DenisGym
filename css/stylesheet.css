@@ -220,13 +220,7 @@ footer {
   display: grid;
   grid-row-start: 1;
   grid-column-start: 1;
-}
-
-@media only screen and (max-width: 500px) {
-  .fa-facebook {
-    grid-row-start: 2;
-    grid-column-start: 1;
-  }
+  margin-left: 5%;
 }
 
 .contact-info {
@@ -236,6 +230,33 @@ footer {
   margin: 5%;
 
   justify-self: flex-end;
+}
+
+.contact-info-headline {
+  font-size: 1.25rem;
+}
+
+.contact-info-txt {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .fa-facebook {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  .fa {
+    scale: 3;
+  }
+
+  .contact-info-headline {
+    font-size: 1rem;
+  }
+
+  .contact-info-txt {
+    font-size: .75rem;
+  }
 }
 
 .phone-nr {
