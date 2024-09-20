@@ -1,15 +1,36 @@
 <footer>
-  <div class="social-links">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="https://www.facebook.com/denisgym" class="fa fa-facebook" target="_blank"></a>
-    <a href="https://www.instagram.com/clubdenisgym/" class="fa fa-instagram" target="_blank"></a>
+  <div class="business-info footer-items-wrapper">
+    <h2 class="txt-2" style="margin-bottom: 0;">Informații utile</h1>
+    <div class="informatii-utile">
+      <ul style="padding-left: 20px;">
+        <li><a class="link" href="GDPR.html">Prelucrarea datelor cu caracter personal</a></li>
+        <li><a class="link" href="conditii.html">Termeni și condiții</a></li>
+        <li><a class="link" href="conditii.html">Livrare și plată</a></li>
+        <li><a class="link" href="conditii.html">Condiții de retur</a></li>
+        <li><a class="link" href="https://www.anpc.gov.ro/" target="_blank">ANPC</a></li>
+      </ul>
+      <div class="col space">
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank"><img class="img-fit mxw" src="../resources/sol.png" alt"soluționarea="" online="" a="" litigiilor"=""></a>
+        <a href="https://anpc.ro/ce-este-sal/" target="_blank"><img class="img-fit mxw" src="../resources/sal.png" alt"soluționarea="" alternativă="" a="" litigiilor"=""></a>
+      </div>
+    </div>
+    <img class="netopia-logo img-fit mxw" src="../resources/netopia-mc-visa-logo.png" />
+  </div>
+  <div class="social-info footer-items-wrapper">
+    <h2 class="txt-2 c-txt">Social</h2>
+    <div class="social-links">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <a href="https://www.facebook.com/denisgym" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/clubdenisgym/" class="fa fa-instagram" target="_blank"></a>
+    </div>
   </div>
   <div class="contact-info">
-    <h3 style="font-weight: bold;" class="contact-info-headline">Contacte Debarcader:</h3>
-    <h4 class="contact-info-txt">Telefon: <a href="tel:+40774086534" class="phone-nr link">+40 774 086 534</a></h4>
+    <h2>Contact</h2>
+    <h3 style="font-weight: bold;" class="contact-info-headline">DenisGym Debarcader:</h3>
+    <h4 class="contact-info-txt">Telefon: <nobr><a href="tel:+40774086534" class="phone-nr link">+40 774 086 534</a></nobr></h4>
     <h4 class="contact-info-txt">Adresa: <a class="location-link link" href="https://maps.app.goo.gl/BznXtqLujgEx8EkA6" target="_blank">Str. Lt. Col. Dumitru Petrescu nr 25</a> </h4>
-    <h3 style="font-weight: bold;" class="contact-info-headline">Contacte Aleea Digului:</h3>
-    <h4 class="contact-info-txt">Telefon: <a href="tel:+40774086925" class="phone-nr link">+40 774 086 925</a></h4>
+    <h3 style="font-weight: bold;" class="contact-info-headline">DenisGym Aleea Digului:</h3>
+    <h4 class="contact-info-txt">Telefon: <nobr><a href="tel:+40774086925" class="phone-nr link">+40 774 086 925</a></nobr></h4>
     <h4 class="contact-info-txt">Adresa: <a class="location-link link" href="https://maps.app.goo.gl/UkbJ1YgBNGmkLaao7" target="_blank">Str. Aleea Digului nr 1A</a></h4>
   </div>
 </footer>
