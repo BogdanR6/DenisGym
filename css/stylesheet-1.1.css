@@ -159,7 +159,7 @@ ul {
   width: 80%;
   padding: 20px 10%;
 
-  text-align: justify;
+  text-align: left;
 }
 
 .text-image-pk {
@@ -388,4 +388,8 @@ mark {
 
 .c-txt {
   text-align: center;
+}
+
+strong {
+  text-align: left;
 }
