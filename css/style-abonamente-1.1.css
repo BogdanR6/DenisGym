@@ -1,0 +1,47 @@
+main {
+  color: var(--secundeary-text-color);
+  padding: 0 15%;
+  background: var(--background-color-1);
+  background: linear-gradient(160deg, var(--background-color-1) 20%, var(--background-color-3) 50%, var(--background-color-1) 100%);
+  min-height: 100vh;
+}
+
+.info-pack-grid {
+  display: grid; 
+  align-content: center;
+  background: var(--background-color-2);
+  background: linear-gradient(90deg, var(--background-color-1) 5%, var(--background-color-2) 95%, var(--background-color-1) 100%);
+  padding: 50px 5%;
+}
+
+.subscriptions-list {
+  color: var(--secundeary-text-color);
+}
+
+.sub-title {
+  justify-self: flex-start;
+  font-size: 2rem;
+  justify-self: start;
+}
+
+sub-name {
+  font-size: 1rem;
+}
+
+sub-price {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 429px) {
+  .sub-title {
+    font-size: 1.75rem;
+  }
+  
+  sub-name {
+    font-size: 0.75rem;
+  }
+  
+  sub-price {
+    font-size: 0.75rem;
+  }
+}

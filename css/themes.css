@@ -3,6 +3,7 @@
   --background-color-1: #0e0e0e; 
   --background-color-2: #161616; 
   --background-color-3: #f33937;
+  --background-color-4: linear-gradient(90deg, var(--background-color-1) 5%, rgba(96,96,96,1) 20%, rgba(96,96,96,1) 50%, rgba(96,96,96,1) 80%, var(--background-color-1) 95%);
   --primary-text-color: #e03732;
   --secundeary-text-color: #c6c6c6;
   --scroll-track-color: #0e0e0e;
